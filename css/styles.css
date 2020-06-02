@@ -1,0 +1,58 @@
+body {
+    padding-top: 20px;
+    background-color: #222;
+    margin: auto;
+    width: 80%;
+    font-family: 'Roboto', "Helvetica", "sans-serif", Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 300;
+    margin: 10px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: justify;
+    margin: 40px;
+    padding: 20px;
+}
+
+#lastdiscline {
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container > div {
+    background-color: #486A47;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+}
+
+hr {
+    width: 70%;
+    height:1px;
+    border-width:0;
+    color:gray;
+    background-color:gray
+}
+
+#joingame, #newgame {
+    margin: 15px;
+    width: 300px;
+    top: 50%;
+}
+
+.buttons {
+    text-align: center;
+}
