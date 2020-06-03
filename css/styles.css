@@ -47,12 +47,29 @@ hr {
     background-color:gray
 }
 
-#joingame, #newgame {
+#joingame, #newgame{
     margin: 15px;
     width: 300px;
     top: 50%;
 }
 
+#join {
+    margin: 15px;
+    width: 200px;
+    top: 50%;
+}
+
 .buttons {
     text-align: center;
+}
+
+.gamcodeusername {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 40%;
+}
+
+#GameCode {
+    text-transform: uppercase;
 }
